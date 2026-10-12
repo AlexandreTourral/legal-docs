@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { url } from '../lib/content';
+---
+
+<Layout title="Page introuvable">
+  <h1>Page introuvable</h1>
+  <p class="muted">Ce document n'existe pas ou a été déplacé.</p>
+  <p><a href={url()}>Voir tous les projets</a></p>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { docSlug, formatDate, getDocs, getProjects, url, type Project } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const projects = await getProjects();
+  return projects.map((project) => ({ params: { project: project.id }, props: { project } }));
+}
+
+const { project } = Astro.props as { project: Project };
+const docs = await getDocs(project.id);
+---
+
+<Layout title={`${project.data.name} — Documents légaux`} crumbs={[{ label: project.data.name }]}>
+  <h1>{project.data.name}</h1>
+  {project.data.description && <p class="muted">{project.data.description}</p>}
+  <ul class="cards">
+    {
+      docs.map((d) => (
+        <li>
+          <a href={url(`${project.id}/${docSlug(d)}`)}>
+            <strong>{d.data.title}</strong>
+            <span>Mis à jour le {formatDate(d.data.updatedAt)}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>

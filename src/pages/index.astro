@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getProjects, url } from '../lib/content';
+
+const projects = await getProjects();
+---
+
+<Layout title="Documents légaux" description="Documents légaux de mes projets">
+  <h1>Documents légaux</h1>
+  <p class="muted">Choisis un projet.</p>
+  <ul class="cards">
+    {
+      projects.map((p) => (
+        <li>
+          <a href={url(p.id)}>
+            <strong>{p.data.name}</strong>
+            {p.data.description && <span>{p.data.description}</span>}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>

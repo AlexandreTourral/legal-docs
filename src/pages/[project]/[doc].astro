@@ -1,0 +1,82 @@
+---
+import { render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { docSlug, formatDate, getDocs, getProjects, projectSlug, url, type Doc } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const [docs, projects] = await Promise.all([getDocs(), getProjects()]);
+  return docs.map((doc) => {
+    const project = projects.find((p) => p.id === projectSlug(doc));
+    if (!project) throw new Error(`projects/${projectSlug(doc)}/project.json manquant`);
+    return {
+      params: { project: project.id, doc: docSlug(doc) },
+      props: { doc, projectName: project.data.name },
+    };
+  });
+}
+
+const { doc, projectName } = Astro.props as { doc: Doc; projectName: string };
+const { Content, headings } = await render(doc);
+const toc = headings.filter((h) => h.depth === 2);
+---
+
+<Layout
+  title={`${doc.data.title} — ${projectName}`}
+  crumbs={[{ label: projectName, href: url(projectSlug(doc)) }, { label: doc.data.title }]}
+>
+  <h1>{doc.data.title}</h1>
+  <p class="muted">Dernière mise à jour : {formatDate(doc.data.updatedAt)}</p>
+  {
+    toc.length > 2 && (
+      <nav class="toc" aria-label="Sommaire">
+        <strong>Sommaire</strong>
+        <ol>
+          {toc.map((h) => (
+            <li>
+              <a href={`#${h.slug}`}>{h.text}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )
+  }
+  <article>
+    <Content />
+  </article>
+</Layout>
+
+<style>
+  .toc {
+    margin: 24px 0;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .toc ol {
+    margin: 8px 0 0;
+    padding-left: 20px;
+  }
+  article :global(h2) {
+    margin-top: 2.2em;
+    font-size: 1.35rem;
+    scroll-margin-top: 16px;
+  }
+  article :global(h3) {
+    margin-top: 1.6em;
+    font-size: 1.1rem;
+  }
+  article :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: auto;
+  }
+  article :global(th),
+  article :global(td) {
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    text-align: left;
+  }
+</style>

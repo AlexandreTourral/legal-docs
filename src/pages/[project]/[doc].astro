@@ -1,7 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import { docSlug, formatDate, getDocs, getProjects, projectSlug, url, type Doc } from '../../lib/content';
+import { docSlug, formatDate, getDocs, getProjects, getMeta, projectSlug, url, type Doc } from '../../lib/content';
 
 export async function getStaticPaths() {
   const [docs, projects] = await Promise.all([getDocs(), getProjects()]);
@@ -10,22 +10,23 @@ export async function getStaticPaths() {
     if (!project) throw new Error(`projects/${projectSlug(doc)}/project.json manquant`);
     return {
       params: { project: project.id, doc: docSlug(doc) },
-      props: { doc, projectName: project.data.name },
+      props: { doc, projectName: project.name },
     };
   });
 }
 
 const { doc, projectName } = Astro.props as { doc: Doc; projectName: string };
+const meta = getMeta(doc);
 const { Content, headings } = await render(doc);
 const toc = headings.filter((h) => h.depth === 2);
 ---
 
 <Layout
-  title={`${doc.data.title} — ${projectName}`}
-  crumbs={[{ label: projectName, href: url(projectSlug(doc)) }, { label: doc.data.title }]}
+  title={`${meta.title} — ${projectName}`}
+  crumbs={[{ label: projectName, href: url(projectSlug(doc)) }, { label: meta.title }]}
 >
-  <h1>{doc.data.title}</h1>
-  <p class="muted">Dernière mise à jour : {formatDate(doc.data.updatedAt)}</p>
+  <h1>{meta.title}</h1>
+  {meta.updatedAt && <p class="muted">Dernière mise à jour : {formatDate(meta.updatedAt)}</p>}
   {
     toc.length > 2 && (
       <nav class="toc" aria-label="Sommaire">

@@ -10,8 +10,9 @@ const docs = defineCollection({
     generateId: ({ entry }) => entry.replace(/\.md$/, ''),
   }),
   schema: z.object({
-    title: z.string(),
-    updatedAt: z.coerce.date(),
+    // Optionnels : à défaut, déduits du `# Titre` et de « Dernière mise à jour : ... »
+    title: z.string().optional(),
+    updatedAt: z.coerce.date().optional(),
     order: z.number().optional(),
   }),
 });

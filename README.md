@@ -23,6 +23,12 @@ URL : `https://<user>.github.io/legals-doc/<projet>/<document>`
    ```
 3. Commit + push sur `main` : le site est redéployé automatiquement.
 
+Le frontmatter et `project.json` sont **facultatifs** : un `.md` brut suffit.
+- Titre = premier `# Titre` du fichier, date = ligne `Dernière mise à jour : 12 octobre 2026` (ces deux lignes ne sont pas dupliquées dans la page).
+- Sans `project.json`, le nom du projet est le nom du dossier (`singularity` → « Singularity »).
+- Les liens `[CGU](conditions-generales-utilisation.md)` sont convertis en URL du site (alias dans `plugins/remark-legal-docs.mjs`).
+- Ordre par défaut : `ml`, `cgu`, `cgv`, `pu`, `pc`, `cookies` (surchargeable avec `order`).
+
 Le plus simple : dupliquer `projects/exemple/`.
 
 ## Développement

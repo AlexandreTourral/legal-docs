@@ -1,6 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { docSlug, formatDate, getDocs, getProjects, url, type Project } from '../../lib/content';
+import { docSlug, formatDate, getDocs, getProjects, url, getMeta, type Project } from '../../lib/content';
 
 export async function getStaticPaths() {
   const projects = await getProjects();
@@ -11,16 +11,16 @@ const { project } = Astro.props as { project: Project };
 const docs = await getDocs(project.id);
 ---
 
-<Layout title={`${project.data.name} — Documents légaux`} crumbs={[{ label: project.data.name }]}>
-  <h1>{project.data.name}</h1>
-  {project.data.description && <p class="muted">{project.data.description}</p>}
+<Layout title={`${project.name} — Documents légaux`} crumbs={[{ label: project.name }]}>
+  <h1>{project.name}</h1>
+  {project.description && <p class="muted">{project.description}</p>}
   <ul class="cards">
     {
       docs.map((d) => (
         <li>
           <a href={url(`${project.id}/${docSlug(d)}`)}>
-            <strong>{d.data.title}</strong>
-            <span>Mis à jour le {formatDate(d.data.updatedAt)}</span>
+            <strong>{getMeta(d).title}</strong>
+            <span>{getMeta(d).updatedAt && `Mis à jour le ${formatDate(getMeta(d).updatedAt!)}`}</span>
           </a>
         </li>
       ))

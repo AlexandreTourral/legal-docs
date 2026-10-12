@@ -13,8 +13,8 @@ const projects = await getProjects();
       projects.map((p) => (
         <li>
           <a href={url(p.id)}>
-            <strong>{p.data.name}</strong>
-            {p.data.description && <span>{p.data.description}</span>}
+            <strong>{p.name}</strong>
+            {p.description && <span>{p.description}</span>}
           </a>
         </li>
       ))

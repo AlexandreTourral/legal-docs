@@ -2,7 +2,7 @@
 
 Site statique (Astro) regroupant les documents légaux de mes projets.
 
-URL : `https://<user>.github.io/legals-doc/<projet>/<document>`
+URL : `https://<user>.github.io/<nom-du-repo>/<projet>/<document>`
 
 ## Ajouter un projet
 
@@ -10,7 +10,7 @@ URL : `https://<user>.github.io/legals-doc/<projet>/<document>`
    ```json
    { "name": "Mon App", "description": "Optionnel" }
    ```
-2. Ajouter un fichier Markdown par document, par ex. `projects/<projet>/cgv.md` → `/legals-doc/<projet>/cgv` :
+2. Ajouter un fichier Markdown par document, par ex. `projects/<projet>/cgv.md` → `/<nom-du-repo>/<projet>/cgv` :
    ```md
    ---
    title: Conditions générales de vente
@@ -35,11 +35,11 @@ Le plus simple : dupliquer `projects/exemple/`.
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321/legals-doc/
+npm run dev      # http://localhost:4321/legal-docs/
 npm run build    # génère dist/
 ```
 
 ## Déploiement (une seule fois)
 
-1. Créer le repo GitHub **`legals-doc`** (le nom du repo = le chemin dans l'URL).
+1. Créer le repo GitHub (son nom = le chemin dans l'URL ; le site s'adapte automatiquement si tu le renommes).
 2. Settings → Pages → Source : **GitHub Actions**.

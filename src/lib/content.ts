@@ -12,7 +12,7 @@ export interface Project {
 export const projectSlug = (doc: Doc) => doc.id.split('/')[0];
 export const docSlug = (doc: Doc) => doc.id.split('/')[1];
 
-/** Préfixe un chemin avec le `base` configuré (ex. /legals-doc). */
+/** Préfixe un chemin avec le `base` configuré (ex. /legal-docs). */
 export const url = (path = '') =>
   `${import.meta.env.BASE_URL.replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
 

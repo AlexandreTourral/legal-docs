@@ -1,6 +1,6 @@
 # Politique de confidentialité de Singularity
 
-Dernière mise à jour : 27 octobre 2026
+Dernière mise à jour : 28 octobre 2026
 
 Singularity est un jeu mobile publié par Alexandre Tourral. Cette page explique quelles données le jeu utilise.
 
@@ -12,7 +12,7 @@ Singularity est un jeu mobile publié par Alexandre Tourral. Cette page explique
 
 ## Ce qui reste sur votre appareil
 
-Votre progression (masse, éclats, stade, améliorations, Photons, achats déjà effectués, coffre du jour, nombre de manches jouées) et vos choix (publicités personnalisées, statistiques) sont enregistrés **uniquement sur votre appareil**. Ils ne sont pas envoyés à nos serveurs. Si vous supprimez le jeu ou changez d'appareil, cette progression est perdue, sauf pour les achats que vous pouvez restaurer avec le bouton « Restaurer les achats ».
+Votre progression (masse, éclats, stade, améliorations, Photons, achats déjà effectués, coffre du jour, objectifs du jour et série de jours joués, nombre de manches jouées, heure de votre dernière visite pour les gains hors ligne, avancement du tutoriel) et vos choix (publicités personnalisées, statistiques, vibrations, secousses d'écran) sont enregistrés **uniquement sur votre appareil**. Ils ne sont pas envoyés à nos serveurs. Si vous supprimez le jeu ou changez d'appareil, cette progression est perdue, sauf pour les achats que vous pouvez restaurer avec le bouton « Restaurer les achats ».
 
 ## Achats intégrés
 
@@ -37,11 +37,16 @@ Les publicités passent par **Unity LevelPlay**, la plateforme de médiation de 
 
 La politique de confidentialité de Unity pour les joueurs s'applique à ce traitement : https://unity.com/legal/game-player-and-app-user-privacy-policy
 
+## Game Center
+
+Si vous êtes connecté à **Game Center** (service d'Apple), le jeu y envoie vos succès (par exemple « première évolution ») et votre progression pour le classement. Ces données sont gérées par Apple selon sa politique de confidentialité ; nous ne recevons ni votre identifiant Game Center ni vos coordonnées. Sans Game Center, le jeu fonctionne de la même façon.
+
 ## Statistiques d'utilisation
 
 Pour améliorer le jeu (par exemple repérer un stade trop long ou trop difficile), nous utilisons **Unity Analytics** (Unity Technologies). Si vous l'acceptez, le jeu envoie des informations sur la façon dont il est utilisé :
 
 - les manches jouées : stade, durée, éclats gagnés, fin par manque de temps ou par destruction ;
+- l'avancement du tutoriel, les objectifs du jour réclamés et les gains hors ligne récupérés ;
 - les évolutions : stade atteint, temps et nombre de manches passés dans le stade précédent ;
 - les améliorations achetées, le coffre du jour, les publicités vues (type, endroit, récompense obtenue) et le nom des produits achetés dans la boutique ;
 - des informations techniques : modèle de l'appareil, version d'iOS, langue, pays (déduit de l'adresse IP) et un identifiant aléatoire créé par Unity Analytics pour cette installation du jeu.

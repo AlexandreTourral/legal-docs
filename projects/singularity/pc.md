@@ -1,8 +1,8 @@
 # Politique de confidentialité de Singularity
 
-Dernière mise à jour : 28 octobre 2026
+Dernière mise à jour : 26 novembre 2026
 
-Singularity est un jeu mobile publié par Alexandre Tourral. Cette page explique quelles données le jeu utilise.
+Singularity est un jeu mobile publié par Alexandre Tourral, disponible sur iPhone et iPad (App Store) et sur Android (Google Play). Cette page explique quelles données le jeu utilise.
 
 ## Ce que le jeu ne fait pas
 
@@ -16,7 +16,7 @@ Votre progression (masse, éclats, stade, améliorations, Photons, achats déjà
 
 ## Achats intégrés
 
-Les achats (packs de Photons, retrait des publicités) sont traités par Apple. Nous ne voyons ni votre carte bancaire ni vos informations de paiement. Apple nous indique seulement qu'un achat a été validé, afin de vous remettre ce que vous avez acheté. Les règles d'Apple s'appliquent à ces achats. Si vous acceptez les statistiques (voir plus bas), nous savons aussi quel produit a été acheté, sans aucune information de paiement.
+Les achats (packs de Photons, retrait des publicités) sont traités par Apple sur iPhone et iPad, et par Google Play sur Android. Nous ne voyons ni votre carte bancaire ni vos informations de paiement. Apple ou Google nous indique seulement qu'un achat a été validé, afin de vous remettre ce que vous avez acheté. Les règles de la boutique où vous avez acheté s'appliquent à ces achats. Si vous acceptez les statistiques (voir plus bas), nous savons aussi quel produit a été acheté, sans aucune information de paiement.
 
 ## Publicités
 
@@ -29,7 +29,7 @@ L'achat « Retrait des publicités » (ou le pack Supernova) supprime les public
 
 Les publicités passent par **Unity LevelPlay**, la plateforme de médiation de Unity Technologies : à chaque publicité, elle met en concurrence nos régies partenaires, **ironSource Ads** et **Unity Ads** (toutes deux de Unity Technologies). Pour afficher une publicité, en mesurer l'affichage, limiter sa fréquence et lutter contre la fraude, Unity traite des informations sur votre appareil et sur les publicités :
 
-- des informations techniques : modèle de l'appareil, version d'iOS, langue, adresse IP (dont Unity peut déduire une position approximative, à l'échelle du pays ou de la ville) ;
+- des informations techniques : modèle de l'appareil, version du système (iOS ou Android), langue, adresse IP (dont Unity peut déduire une position approximative, à l'échelle du pays ou de la ville) ;
 - un identifiant propre à l'app ;
 - des données publicitaires : publicités affichées, regardées ou touchées ;
 - des données de diagnostic : erreurs et performances de l'affichage des publicités ;
@@ -39,7 +39,7 @@ La politique de confidentialité de Unity pour les joueurs s'applique à ce trai
 
 ## Game Center
 
-Si vous êtes connecté à **Game Center** (service d'Apple), le jeu y envoie vos succès (par exemple « première évolution ») et votre progression pour le classement. Ces données sont gérées par Apple selon sa politique de confidentialité ; nous ne recevons ni votre identifiant Game Center ni vos coordonnées. Sans Game Center, le jeu fonctionne de la même façon.
+Sur iPhone et iPad, si vous êtes connecté à **Game Center** (service d'Apple), le jeu y envoie vos succès (par exemple « première évolution ») et votre progression pour le classement. Ces données sont gérées par Apple selon sa politique de confidentialité ; nous ne recevons ni votre identifiant Game Center ni vos coordonnées. Sans Game Center, le jeu fonctionne de la même façon. Sur Android, le jeu n'utilise aucun service de ce type.
 
 ## Statistiques d'utilisation
 
@@ -49,7 +49,7 @@ Pour améliorer le jeu (par exemple repérer un stade trop long ou trop difficil
 - l'avancement du tutoriel, les objectifs du jour réclamés et les gains hors ligne récupérés ;
 - les évolutions : stade atteint, temps et nombre de manches passés dans le stade précédent ;
 - les améliorations achetées, le coffre du jour, les publicités vues (type, endroit, récompense obtenue) et le nom des produits achetés dans la boutique ;
-- des informations techniques : modèle de l'appareil, version d'iOS, langue, pays (déduit de l'adresse IP) et un identifiant aléatoire créé par Unity Analytics pour cette installation du jeu.
+- des informations techniques : modèle de l'appareil, version du système (iOS ou Android), langue, pays (déduit de l'adresse IP) et un identifiant aléatoire créé par Unity Analytics pour cette installation du jeu.
 
 Ces données ne servent ni à la publicité ni à vous suivre d'une app à l'autre, et ne sont pas liées à votre identité.
 
@@ -60,7 +60,7 @@ Partout, vous pouvez les couper à tout moment : **Réglages** (engrenage du Hub
 
 ## Rapports de plantage
 
-Si le jeu plante, un rapport technique (modèle de l'appareil, version d'iOS, version du jeu, description de l'erreur) peut être envoyé à Unity (Unity Cloud Diagnostics) pour nous aider à corriger le problème. Il ne contient aucune donnée de partie ni identifiant publicitaire (base légale : notre intérêt légitime à faire fonctionner le jeu).
+Si le jeu plante, un rapport technique (modèle de l'appareil, version du système (iOS ou Android), version du jeu, description de l'erreur) peut être envoyé à Unity (Unity Cloud Diagnostics) pour nous aider à corriger le problème. Il ne contient aucune donnée de partie ni identifiant publicitaire (base légale : notre intérêt légitime à faire fonctionner le jeu).
 
 Les statistiques et les rapports de plantage sont traités par Unity selon sa politique de confidentialité pour les joueurs : https://unity.com/legal/game-player-and-app-user-privacy-policy
 
@@ -68,19 +68,20 @@ Les statistiques et les rapports de plantage sont traités par Unity selon sa po
 
 Le jeu ne vous pose la question qu'après votre première manche :
 
-- **Dans l'Union européenne, au Royaume-Uni et en Suisse**, le jeu vous demande d'abord votre accord pour les publicités personnalisées et les statistiques (« Accepter » ou « Refuser »). Si vous acceptez, iOS vous présente ensuite sa propre demande d'autorisation de suivi.
-- **Ailleurs**, iOS vous présente directement sa demande d'autorisation de suivi.
+- **Dans l'Union européenne, au Royaume-Uni et en Suisse**, le jeu vous demande d'abord votre accord pour les publicités personnalisées et les statistiques (« Accepter » ou « Refuser »). Sur iPhone et iPad, si vous acceptez, iOS vous présente ensuite sa propre demande d'autorisation de suivi.
+- **Ailleurs**, sur iPhone et iPad, iOS vous présente directement sa demande d'autorisation de suivi. Sur Android, le jeu ne vous pose pas de question : les publicités personnalisées sont permises tant que vous ne les refusez pas dans les réglages du jeu.
 
-Les publicités ne sont **personnalisées** que si vous avez donné votre accord **et** autorisé le suivi dans la demande d'iOS. Dans tous les autres cas, elles restent **non personnalisées** : les régies ne reçoivent pas l'identifiant publicitaire de votre appareil et ne s'en servent pas pour vous suivre d'une app à l'autre. Refuser ne change rien au jeu, qui reste entièrement gratuit et jouable.
+Les publicités ne sont **personnalisées** que si vous les avez acceptées (ou, hors de l'Union européenne, du Royaume-Uni et de la Suisse, si vous ne les avez pas refusées) **et**, sur iPhone et iPad, si vous avez autorisé le suivi dans la demande d'iOS. Dans tous les autres cas, elles restent **non personnalisées** : les régies ne reçoivent pas l'identifiant publicitaire de votre appareil et ne s'en servent pas pour vous suivre d'une app à l'autre. Refuser ne change rien au jeu, qui reste entièrement gratuit et jouable.
 
 Vous pouvez changer d'avis à tout moment :
 
 - dans le jeu : **Réglages** (engrenage du Hub) > **Pubs personnalisées** et **Statistiques** ;
-- dans iOS : **Réglages** > **Confidentialité et sécurité** > **Suivi**, puis désactiver Singularity.
+- dans iOS : **Réglages** > **Confidentialité et sécurité** > **Suivi**, puis désactiver Singularity ;
+- dans Android : **Paramètres** > **Sécurité et confidentialité** (ou **Google**) > **Annonces**, puis supprimer l'identifiant publicitaire.
 
 ## Enfants
 
-Le jeu ne cherche pas à collecter de données auprès des enfants. Comme il ne demande aucune donnée personnelle, un parent n'a rien à nous transmettre. Les achats et le suivi publicitaire peuvent être limités ou bloqués dans les réglages « Temps d'écran » de l'appareil.
+Le jeu ne cherche pas à collecter de données auprès des enfants. Comme il ne demande aucune donnée personnelle, un parent n'a rien à nous transmettre. Les achats et le suivi publicitaire peuvent être limités ou bloqués dans les réglages « Temps d'écran » sur iPhone et iPad, ou avec Google Family Link et le contrôle parental de Google Play sur Android.
 
 ## Vos droits
 

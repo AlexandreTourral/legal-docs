@@ -1,6 +1,6 @@
 # Politique d'utilisation de Singularity
 
-Dernière mise à jour : 12 octobre 2026
+Dernière mise à jour : 26 novembre 2026
 
 Cette politique précise ce qui est permis et interdit quand vous jouez à **Singularity**. Elle complète les [CGU](conditions-generales-utilisation.md).
 
@@ -14,7 +14,7 @@ Cette politique précise ce qui est permis et interdit quand vous jouez à **Sin
 
 - **Tricher ou modifier le Jeu** : outils de triche, modification de la sauvegarde ou de la mémoire, application modifiée, falsification d'un achat ou d'un reçu, contournement des publicités récompensées ou de la boutique.
 - **Extraire ou copier** le code, les graphismes, les sons ou les textes du Jeu, les décompiler ou les réutiliser dans un autre produit.
-- **Perturber le Jeu ou ses services** : attaquer, surcharger ou chercher à contourner ses protections ou celles de ses partenaires (App Store, Unity Ads).
+- **Perturber le Jeu ou ses services** : attaquer, surcharger ou chercher à contourner ses protections ou celles de ses partenaires (App Store, Google Play, Unity Ads).
 - **Fraude aux paiements ou aux pubs** : rétrofacturation abusive après avoir consommé les Photons, clics ou visionnages automatisés, usage de bots.
 - **Revente** : vendre, échanger ou transférer des comptes, sauvegardes, Photons ou autres éléments du Jeu.
 - **Usage commercial** non autorisé de l'œuvre (publicité, produit dérivé, clone).

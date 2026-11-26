@@ -1,6 +1,6 @@
 # Conditions générales d'utilisation de Singularity
 
-Dernière mise à jour : 12 octobre 2026
+Dernière mise à jour : 26 novembre 2026
 
 Les présentes conditions générales d'utilisation (« CGU ») encadrent l'usage du jeu mobile **Singularity** (« le Jeu »), édité par Alexandre Tourral (« l'Éditeur »). En installant ou en utilisant le Jeu, vous acceptez ces CGU. Si vous les refusez, n'utilisez pas le Jeu.
 
@@ -10,17 +10,17 @@ Singularity est un jeu incrémental spatial. Le joueur fait grandir un objet cos
 
 ## 2. Accès et compatibilité
 
-- Le Jeu est destiné aux appareils iOS compatibles (iOS 15.0 minimum).
+- Le Jeu est destiné aux appareils iOS compatibles (iOS 15.0 minimum) et aux appareils Android compatibles (Android 8.0 minimum).
 - Vous êtes responsable de votre appareil, de votre connexion et des frais qui y sont liés.
 - Aucun compte n'est nécessaire. Une connexion Internet peut être requise pour les achats et les publicités.
 
 ## 3. Âge et mineurs
 
-Le Jeu est adapté à tous les publics. Un mineur doit utiliser les achats intégrés avec l'accord de son représentant légal. Les achats peuvent être limités ou bloqués dans les réglages « Temps d'écran » de l'appareil.
+Le Jeu est adapté à tous les publics. Un mineur doit utiliser les achats intégrés avec l'accord de son représentant légal. Les achats peuvent être limités ou bloqués dans les réglages « Temps d'écran » sur iOS, ou avec Google Family Link et le contrôle parental de Google Play sur Android.
 
 ## 4. Licence d'utilisation
 
-L'Éditeur vous concède une licence personnelle, non exclusive, non transférable et révocable pour utiliser le Jeu sur vos appareils, pour un usage privé et non commercial. Les conditions de l'Apple Media Services et de l'accord de licence standard d'Apple (« Licensed Application End User License Agreement ») s'appliquent également.
+L'Éditeur vous concède une licence personnelle, non exclusive, non transférable et révocable pour utiliser le Jeu sur vos appareils, pour un usage privé et non commercial. Les conditions de la boutique où vous avez obtenu le Jeu s'appliquent également : sur iPhone et iPad, l'Apple Media Services et l'accord de licence standard d'Apple (« Licensed Application End User License Agreement ») ; sur Android, les conditions d'utilisation de Google Play.
 
 ## 5. Propriété intellectuelle
 

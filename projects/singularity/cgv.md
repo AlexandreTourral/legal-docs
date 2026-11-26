@@ -1,12 +1,12 @@
 # Conditions générales de vente de Singularity
 
-Dernière mise à jour : 12 octobre 2026
+Dernière mise à jour : 26 novembre 2026
 
 Ces conditions générales de vente (« CGV ») s'appliquent aux achats intégrés proposés dans le jeu **Singularity**, édité par Alexandre Tourral (« l'Éditeur »). Elles complètent les [CGU](conditions-generales-utilisation.md).
 
 ## 1. Qui vend et qui encaisse
 
-Les achats sont réalisés via l'**App Store d'Apple**. Apple gère le paiement, la facturation du moyen de paiement, les remboursements et les moyens de paiement acceptés, selon ses propres conditions (Apple Media Services). L'Éditeur ne reçoit jamais vos informations bancaires.
+Les achats sont réalisés via l'**App Store d'Apple** sur iPhone et iPad, et via **Google Play** sur Android (« la boutique »). La boutique gère le paiement, la facturation du moyen de paiement, les remboursements et les moyens de paiement acceptés, selon ses propres conditions (Apple Media Services pour Apple, conditions d'utilisation de Google Play pour Google). L'Éditeur ne reçoit jamais vos informations bancaires.
 
 ## 2. Produits proposés
 
@@ -18,7 +18,7 @@ Les achats sont réalisés via l'**App Store d'Apple**. Apple gère le paiement,
 | Pack de Photons — énorme | Consommable | 2 600 Photons et retrait des publicités | 19,99 € |
 | Retrait des publicités | Non consommable | Suppression des publicités vidéo | 4,99 € |
 
-Le prix exact, taxes comprises, est celui affiché par l'App Store au moment de l'achat, dans la devise de votre pays. Il peut varier selon le pays et les taxes locales.
+Le prix exact, taxes comprises, est celui affiché par la boutique au moment de l'achat, dans la devise de votre pays. Il peut varier selon le pays et les taxes locales.
 
 ## 3. Photons
 
@@ -26,19 +26,19 @@ Les Photons sont une monnaie virtuelle utilisable uniquement dans le Jeu, par ex
 
 ## 4. Commande et livraison
 
-L'achat est conclu lorsque vous confirmez le paiement auprès d'Apple. Le contenu numérique est livré immédiatement dans le Jeu. Si la livraison échoue (coupure, fermeture du Jeu), relancez le Jeu : l'achat sera pris en compte. À défaut, contactez l'Éditeur avec votre reçu Apple.
+L'achat est conclu lorsque vous confirmez le paiement auprès de la boutique. Le contenu numérique est livré immédiatement dans le Jeu. Si la livraison échoue (coupure, fermeture du Jeu), relancez le Jeu : l'achat sera pris en compte. À défaut, contactez l'Éditeur avec votre reçu Apple ou Google Play.
 
 ## 5. Droit de rétractation
 
-Pour un achat de contenu numérique fourni immédiatement, vous acceptez que la livraison commence dès la confirmation de l'achat et **vous reconnaissez perdre votre droit de rétractation de 14 jours** une fois le contenu livré (article L221-28, 13° du Code de la consommation). Apple peut toutefois appliquer sa propre politique de remboursement.
+Pour un achat de contenu numérique fourni immédiatement, vous acceptez que la livraison commence dès la confirmation de l'achat et **vous reconnaissez perdre votre droit de rétractation de 14 jours** une fois le contenu livré (article L221-28, 13° du Code de la consommation). Apple et Google peuvent toutefois appliquer leur propre politique de remboursement.
 
 ## 6. Remboursement
 
-Les demandes de remboursement sont traitées par **Apple** : https://reportaproblem.apple.com. L'Éditeur ne peut pas rembourser directement un achat effectué via l'App Store. Un remboursement accordé par Apple peut entraîner le retrait des éléments correspondants.
+Les demandes de remboursement sont traitées par la boutique : **Apple** (https://reportaproblem.apple.com) ou **Google Play** (https://support.google.com/googleplay/answer/2479637). L'Éditeur ne peut pas rembourser directement un achat effectué via une boutique. Un remboursement accordé par la boutique peut entraîner le retrait des éléments correspondants.
 
 ## 7. Restauration des achats
 
-L'achat « Retrait des publicités » (non consommable) est lié à votre identifiant Apple. Après réinstallation ou changement d'appareil, utilisez le bouton « Restaurer les achats » de la boutique. Les packs de Photons, consommables, ne sont **pas** restaurables.
+L'achat « Retrait des publicités » (non consommable) est lié à votre identifiant Apple ou à votre compte Google. Après réinstallation ou changement d'appareil, utilisez le bouton « Restaurer les achats » de la boutique. Les packs de Photons, consommables, ne sont **pas** restaurables.
 
 ## 8. Garanties légales
 
@@ -46,7 +46,7 @@ Vous bénéficiez de la garantie légale de conformité applicable aux contenus 
 
 ## 9. Mineurs
 
-Un mineur doit obtenir l'accord de son représentant légal avant tout achat. Vous pouvez bloquer ou limiter les achats via « Temps d'écran » sur iOS.
+Un mineur doit obtenir l'accord de son représentant légal avant tout achat. Vous pouvez bloquer ou limiter les achats via « Temps d'écran » sur iOS, ou avec Google Family Link et le contrôle parental de Google Play sur Android.
 
 ## 10. Modification des prix et de l'offre
 
@@ -62,4 +62,4 @@ Droit français, sans préjudice des règles impératives de protection du conso
 
 atourral.dev@gmail.com
 
-> Prix indicatifs : à aligner sur ceux saisis dans App Store Connect (voir `docs/publication-app-store.md`).
+> Prix indicatifs : à aligner sur ceux saisis dans App Store Connect et dans Google Play Console (voir `docs/publication-app-store.md`).

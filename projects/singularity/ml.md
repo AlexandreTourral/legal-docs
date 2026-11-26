@@ -1,6 +1,6 @@
 # Mentions légales
 
-Dernière mise à jour : 12 octobre 2026
+Dernière mise à jour : 26 novembre 2026
 
 ## Éditeur du jeu
 
@@ -13,7 +13,7 @@ Dernière mise à jour : 12 octobre 2026
 
 ## Distribution
 
-Le jeu est distribué via l'App Store d'Apple (Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irlande).
+Le jeu est distribué via l'App Store d'Apple (Apple Distribution International Ltd., Hollyhill Industrial Estate, Hollyhill, Cork, Irlande) et via Google Play (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande).
 
 ## Publicités
 
